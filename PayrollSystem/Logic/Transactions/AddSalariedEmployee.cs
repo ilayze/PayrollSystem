@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Transactions
 {
-    public class AddSalariedEmployee:Transaction
+    public class AddSalariedEmployee : Transaction
     {
         private int empId;
         private string _name;
