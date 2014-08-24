@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
+    <Compile Include="Payment\PaymentClassification.cs" />
+    <Compile Include="Payment\SalariedClassification.cs" />
     <Compile Include="PayrollDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transactions\AddSalariedEmployee.cs" />

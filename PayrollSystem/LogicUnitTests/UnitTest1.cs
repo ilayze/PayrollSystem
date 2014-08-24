@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Logic.Transactions;
 using Logic;
+using Logic.Payment;
 
 namespace LogicUnitTests
 {
@@ -17,6 +18,10 @@ namespace LogicUnitTests
 
             Employee e = PayrollDatabase.GetEmployee(empId);
             Assert.AreEqual("Bob", e.Name);
+
+            PaymentClassification pc = e.Classification;
+            Assert.IsTrue(pc is SalariedClassification);
+            Assert.AreEqual(1000.00, pc.Salary);
 
         }
     }
