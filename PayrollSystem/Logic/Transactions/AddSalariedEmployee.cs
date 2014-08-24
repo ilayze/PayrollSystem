@@ -16,7 +16,7 @@ namespace Logic.Transactions
 
         public AddSalariedEmployee(int empId, string name, string address, double salary)
         {
-            // TODO: Complete member initialization
+
             this.empId = empId;
             this._name = name;
             this._address = address;
