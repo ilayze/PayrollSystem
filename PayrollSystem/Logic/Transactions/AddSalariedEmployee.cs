@@ -7,28 +7,20 @@ using System.Threading.Tasks;
 
 namespace Logic.Transactions
 {
-    public class AddSalariedEmployee : Transaction
+    public class AddSalariedEmployee : AddEmployeeTransaction
     {
-        private int empId;
-        private string _name;
-        private string _address;
         private double _salary;
 
         public AddSalariedEmployee(int empId, string name, string address, double salary)
+            : base(empId, name, address)
         {
-
-            this.empId = empId;
-            this._name = name;
-            this._address = address;
             this._salary = salary;
-
         }
-        public void Execute()
-        {
-            SalariedClassification sc = new SalariedClassification(_salary);
 
-            Employee e = new Employee(_name, _address, sc);
-            PayrollDatabase.AddEmployee(empId, e);
+
+        protected override PaymentClassification MakeClassification()
+        {
+            return new SalariedClassification(_salary);
         }
     }
 }
