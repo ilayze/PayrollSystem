@@ -40,11 +40,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
+    <Compile Include="Payment\HourlyClassification.cs" />
     <Compile Include="Payment\PaymentClassification.cs" />
     <Compile Include="Payment\SalariedClassification.cs" />
     <Compile Include="PayrollDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transactions\AddEmployeeTransaction.cs" />
+    <Compile Include="Transactions\AddHourlyEmployee.cs" />
     <Compile Include="Transactions\AddSalariedEmployee.cs" />
     <Compile Include="Transactions\Transaction.cs" />
   </ItemGroup>

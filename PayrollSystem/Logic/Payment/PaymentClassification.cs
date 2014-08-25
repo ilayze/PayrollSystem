@@ -8,6 +8,6 @@ namespace Logic.Payment
 {
     public abstract class PaymentClassification
     {
-        public double Salary { get; set; }
+       
     }
 }
