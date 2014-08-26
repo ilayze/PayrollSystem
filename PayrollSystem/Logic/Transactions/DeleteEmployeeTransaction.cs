@@ -12,12 +12,11 @@ namespace Logic.Transactions
 
         public DeleteEmployeeTransaction(int empId)
         {
-            // TODO: Complete member initialization
             this.empId = empId;
         }
         public void Execute()
         {
-            throw new NotImplementedException();
+            PayrollDatabase.DeleteEmployee(empId);
         }
     }
 }
