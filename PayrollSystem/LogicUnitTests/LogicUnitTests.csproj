@@ -53,6 +53,7 @@
     <Compile Include="AddEmployeeUnitTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DeleteEmployeeUnitTests.cs" />
+    <Compile Include="TimeCardUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Logic\Logic.csproj">
