@@ -136,6 +136,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.deploy.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
