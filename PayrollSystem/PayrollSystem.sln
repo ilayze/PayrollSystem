@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicUnitTests", "LogicUnitTests\LogicUnitTests.csproj", "{99DAC807-DF40-4A1E-8FA7-0C4004DD594F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll.Web", "Payroll.Web\Payroll.Web.csproj", "{2E3D187A-2554-4DF9-B368-368E90230D19}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{99DAC807-DF40-4A1E-8FA7-0C4004DD594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99DAC807-DF40-4A1E-8FA7-0C4004DD594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99DAC807-DF40-4A1E-8FA7-0C4004DD594F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E3D187A-2554-4DF9-B368-368E90230D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E3D187A-2554-4DF9-B368-368E90230D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E3D187A-2554-4DF9-B368-368E90230D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E3D187A-2554-4DF9-B368-368E90230D19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
