@@ -8,9 +8,20 @@ namespace Logic.Payment
 {
     public class SalariedClassification:PaymentClassification
     {
+        private double _salary;
+
+        public double Salary
+        {
+            get
+            {
+                return _salary;
+            }
+
+        }
+
         public SalariedClassification(double salary)
         {
-            Salary = salary;
+            _salary = salary;
         }
     }
 }

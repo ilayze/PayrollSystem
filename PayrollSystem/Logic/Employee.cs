@@ -15,6 +15,7 @@ namespace Logic
         private PaymentClassification _paymentClassification;
 
         public string Name { get { return _name; } }
+        public string Address { get { return _address; } }
         public PaymentClassification Classification { get { return _paymentClassification; } }
 
         public Employee(string _name, string _address, PaymentClassification pc)

@@ -21,5 +21,10 @@ namespace Logic
                 return _employees[empId];
             return null;
         }
+
+        internal static void DeleteEmployee(int empId)
+        {
+            _employees.Remove(empId);
+        }
     }
 }
